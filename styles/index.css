@@ -3,7 +3,7 @@
 
 
 body {
-    background-image: url('assets/background.jpg'); /* Ajuste o caminho da pasta */
+    background-image: url('../assets/background.jpg'); /* Ajuste o caminho da pasta */
     background-size: cover; /* A imagem cobre toda a tela */
     background-position: center; /* Centraliza a imagem */
     background-attachment: fixed; /* A imagem fica parada enquanto você rola o site */
