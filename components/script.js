@@ -2,7 +2,7 @@
 document.addEventListener("DOMContentLoaded", function() {
 
     //1. Bloco do Menu
-    fetch('../components/menu.html')
+    fetch('components/menu.html')
         .then(response => {
             if (!response.ok) {
                 throw new Error('Erro ao carregar o menu');
@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
         .catch(error => console.error('Erro:', error));
 
         //2. Bloco do Footer/Rodapé
-        fetch('../components/footer.html')
+        fetch('components/footer.html')
             .then(res => res.text())
             .then(data => {
                 document.getElementById('footer-container').innerHTML = data;
